@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demoproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="sOb-pa-viy">
+                                <rect key="frame" x="10" y="359.66666666666669" width="370" height="124.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrS-jI-Ndr">
+                                        <rect key="frame" x="0.0" y="0.0" width="370" height="20.333333333333332"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="Welcome" label="Welcome"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j8b-MY-Itp">
+                                        <rect key="frame" x="0.0" y="38.333333333333314" width="370" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M5-HO-njx">
+                                        <rect key="frame" x="0.0" y="90.333333333333314" width="370" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="j8b-MY-Itp" secondAttribute="trailing" id="5Se-0w-qYP"/>
+                                    <constraint firstAttribute="trailing" secondItem="jrS-jI-Ndr" secondAttribute="trailing" id="BYD-er-JWx"/>
+                                    <constraint firstItem="jrS-jI-Ndr" firstAttribute="leading" secondItem="sOb-pa-viy" secondAttribute="leading" id="Q9v-Hq-jMJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="6M5-HO-njx" secondAttribute="trailing" id="eHW-Gx-psa"/>
+                                    <constraint firstItem="j8b-MY-Itp" firstAttribute="leading" secondItem="sOb-pa-viy" secondAttribute="leading" id="fzJ-Wn-YE1"/>
+                                    <constraint firstItem="6M5-HO-njx" firstAttribute="leading" secondItem="sOb-pa-viy" secondAttribute="leading" id="v0m-Pz-eHc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sOb-pa-viy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AT6-9y-dVJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sOb-pa-viy" secondAttribute="trailing" constant="10" id="Mwf-FR-aKb"/>
+                            <constraint firstItem="sOb-pa-viy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="SHe-JU-Pr1"/>
+                            <constraint firstItem="sOb-pa-viy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fO9-Qf-gTi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginBtn" destination="6M5-HO-njx" id="TVM-EZ-6mn"/>
+                        <outlet property="passwordTxtFld" destination="j8b-MY-Itp" id="Spu-Ho-3ex"/>
+                        <outlet property="titleLbl" destination="jrS-jI-Ndr" id="qzy-Wu-G54"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
