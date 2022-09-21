@@ -15,7 +15,6 @@ final class DemoprojectTests: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
         sut = ViewController()
-        
     }
 
     override func tearDownWithError() throws {

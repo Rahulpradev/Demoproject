@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED11901F28D9C01B0052C812 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11901E28D9C01B0052C812 /* UserListViewModel.swift */; };
+		ED11902128D9C2380052C812 /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902028D9C2380052C812 /* UserListModel.swift */; };
+		ED11902228D9C2380052C812 /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902028D9C2380052C812 /* UserListModel.swift */; };
+		ED11902328D9C2380052C812 /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902028D9C2380052C812 /* UserListModel.swift */; };
+		ED11902528D9D8060052C812 /* APIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902428D9D8060052C812 /* APIServiceManager.swift */; };
+		ED11902628D9D8060052C812 /* APIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902428D9D8060052C812 /* APIServiceManager.swift */; };
+		ED11902728D9D8060052C812 /* APIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11902428D9D8060052C812 /* APIServiceManager.swift */; };
 		EDCBF37128D701FE0026F5D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF37028D701FE0026F5D2 /* AppDelegate.swift */; };
 		EDCBF37328D701FE0026F5D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF37228D701FE0026F5D2 /* SceneDelegate.swift */; };
 		EDCBF37528D701FE0026F5D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF37428D701FE0026F5D2 /* ViewController.swift */; };
@@ -17,6 +24,21 @@
 		EDCBF39228D702000026F5D2 /* DemoprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF39128D702000026F5D2 /* DemoprojectUITests.swift */; };
 		EDCBF39428D702000026F5D2 /* DemoprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF39328D702000026F5D2 /* DemoprojectUITestsLaunchTests.swift */; };
 		EDCBF3A128D753760026F5D2 /* DemoprojectAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBF3A028D753760026F5D2 /* DemoprojectAPITests.swift */; };
+		EDF6487028D989A40064AA0C /* CourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6486F28D989A40064AA0C /* CourseInfoViewController.swift */; };
+		EDF6487128D989A80064AA0C /* CourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6486F28D989A40064AA0C /* CourseInfoViewController.swift */; };
+		EDF6487228D989A80064AA0C /* CourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6486F28D989A40064AA0C /* CourseInfoViewController.swift */; };
+		EDF6487528D98C200064AA0C /* CourseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487428D98C200064AA0C /* CourseStoryboard.storyboard */; };
+		EDF6487628D98C200064AA0C /* CourseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487428D98C200064AA0C /* CourseStoryboard.storyboard */; };
+		EDF6487728D98C200064AA0C /* CourseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487428D98C200064AA0C /* CourseStoryboard.storyboard */; };
+		EDF6487B28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6487928D995A10064AA0C /* CourseListTableViewCell.swift */; };
+		EDF6487C28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6487928D995A10064AA0C /* CourseListTableViewCell.swift */; };
+		EDF6487D28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6487928D995A10064AA0C /* CourseListTableViewCell.swift */; };
+		EDF6487E28D995A10064AA0C /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487A28D995A10064AA0C /* CourseListTableViewCell.xib */; };
+		EDF6487F28D995A10064AA0C /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487A28D995A10064AA0C /* CourseListTableViewCell.xib */; };
+		EDF6488028D995A10064AA0C /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF6487A28D995A10064AA0C /* CourseListTableViewCell.xib */; };
+		EDF6488228D9A3B70064AA0C /* APIPathConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6488128D9A3B70064AA0C /* APIPathConstants.swift */; };
+		EDF6488328D9A3B70064AA0C /* APIPathConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6488128D9A3B70064AA0C /* APIPathConstants.swift */; };
+		EDF6488428D9A3B70064AA0C /* APIPathConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6488128D9A3B70064AA0C /* APIPathConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED11901E28D9C01B0052C812 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		ED11902028D9C2380052C812 /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		ED11902428D9D8060052C812 /* APIServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceManager.swift; sourceTree = "<group>"; };
 		EDCBF36D28D701FE0026F5D2 /* Demoproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCBF37028D701FE0026F5D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCBF37228D701FE0026F5D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,11 @@
 		EDCBF39128D702000026F5D2 /* DemoprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoprojectUITests.swift; sourceTree = "<group>"; };
 		EDCBF39328D702000026F5D2 /* DemoprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EDCBF3A028D753760026F5D2 /* DemoprojectAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoprojectAPITests.swift; sourceTree = "<group>"; };
+		EDF6486F28D989A40064AA0C /* CourseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInfoViewController.swift; sourceTree = "<group>"; };
+		EDF6487428D98C200064AA0C /* CourseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CourseStoryboard.storyboard; sourceTree = "<group>"; };
+		EDF6487928D995A10064AA0C /* CourseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListTableViewCell.swift; sourceTree = "<group>"; };
+		EDF6487A28D995A10064AA0C /* CourseListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListTableViewCell.xib; sourceTree = "<group>"; };
+		EDF6488128D9A3B70064AA0C /* APIPathConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPathConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,11 @@
 		EDCBF36F28D701FE0026F5D2 /* Demoproject */ = {
 			isa = PBXGroup;
 			children = (
+				EDF6487828D995520064AA0C /* CustomViews */,
+				EDF6487328D98AE10064AA0C /* Storyboards */,
+				EDF6486E28D989550064AA0C /* ViewModels */,
+				EDF6486D28D989420064AA0C /* Models */,
+				EDF6486C28D988EF0064AA0C /* Views */,
 				EDCBF37028D701FE0026F5D2 /* AppDelegate.swift */,
 				EDCBF37228D701FE0026F5D2 /* SceneDelegate.swift */,
 				EDCBF37428D701FE0026F5D2 /* ViewController.swift */,
@@ -108,6 +143,8 @@
 				EDCBF37928D702000026F5D2 /* Assets.xcassets */,
 				EDCBF37B28D702000026F5D2 /* LaunchScreen.storyboard */,
 				EDCBF37E28D702000026F5D2 /* Info.plist */,
+				EDF6488128D9A3B70064AA0C /* APIPathConstants.swift */,
+				ED11902428D9D8060052C812 /* APIServiceManager.swift */,
 			);
 			path = Demoproject;
 			sourceTree = "<group>";
@@ -128,6 +165,47 @@
 				EDCBF39328D702000026F5D2 /* DemoprojectUITestsLaunchTests.swift */,
 			);
 			path = DemoprojectUITests;
+			sourceTree = "<group>";
+		};
+		EDF6486C28D988EF0064AA0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6486F28D989A40064AA0C /* CourseInfoViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDF6486D28D989420064AA0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED11902028D9C2380052C812 /* UserListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDF6486E28D989550064AA0C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED11901E28D9C01B0052C812 /* UserListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EDF6487328D98AE10064AA0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6487428D98C200064AA0C /* CourseStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDF6487828D995520064AA0C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6487928D995A10064AA0C /* CourseListTableViewCell.swift */,
+				EDF6487A28D995A10064AA0C /* CourseListTableViewCell.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF6487528D98C200064AA0C /* CourseStoryboard.storyboard in Resources */,
+				EDF6487E28D995A10064AA0C /* CourseListTableViewCell.xib in Resources */,
 				EDCBF37D28D702000026F5D2 /* LaunchScreen.storyboard in Resources */,
 				EDCBF37A28D702000026F5D2 /* Assets.xcassets in Resources */,
 				EDCBF37828D701FE0026F5D2 /* Main.storyboard in Resources */,
@@ -244,6 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF6487628D98C200064AA0C /* CourseStoryboard.storyboard in Resources */,
+				EDF6487F28D995A10064AA0C /* CourseListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +333,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF6487728D98C200064AA0C /* CourseStoryboard.storyboard in Resources */,
+				EDF6488028D995A10064AA0C /* CourseListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF6487B28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */,
 				EDCBF37528D701FE0026F5D2 /* ViewController.swift in Sources */,
+				ED11902128D9C2380052C812 /* UserListModel.swift in Sources */,
 				EDCBF37128D701FE0026F5D2 /* AppDelegate.swift in Sources */,
+				ED11902528D9D8060052C812 /* APIServiceManager.swift in Sources */,
+				ED11901F28D9C01B0052C812 /* UserListViewModel.swift in Sources */,
+				EDF6488228D9A3B70064AA0C /* APIPathConstants.swift in Sources */,
+				EDF6487028D989A40064AA0C /* CourseInfoViewController.swift in Sources */,
 				EDCBF37328D701FE0026F5D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +361,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED11902228D9C2380052C812 /* UserListModel.swift in Sources */,
+				ED11902628D9D8060052C812 /* APIServiceManager.swift in Sources */,
 				EDCBF38828D702000026F5D2 /* DemoprojectTests.swift in Sources */,
+				EDF6488328D9A3B70064AA0C /* APIPathConstants.swift in Sources */,
+				EDF6487C28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */,
+				EDF6487128D989A80064AA0C /* CourseInfoViewController.swift in Sources */,
 				EDCBF3A128D753760026F5D2 /* DemoprojectAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED11902328D9C2380052C812 /* UserListModel.swift in Sources */,
+				ED11902728D9D8060052C812 /* APIServiceManager.swift in Sources */,
 				EDCBF39228D702000026F5D2 /* DemoprojectUITests.swift in Sources */,
+				EDF6488428D9A3B70064AA0C /* APIPathConstants.swift in Sources */,
+				EDF6487D28D995A10064AA0C /* CourseListTableViewCell.swift in Sources */,
+				EDF6487228D989A80064AA0C /* CourseInfoViewController.swift in Sources */,
 				EDCBF39428D702000026F5D2 /* DemoprojectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +545,7 @@
 				INFOPLIST_FILE = Demoproject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CourseStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +572,7 @@
 				INFOPLIST_FILE = Demoproject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CourseStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
