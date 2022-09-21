@@ -13,6 +13,7 @@ struct APIResponse<D : Decodable>: Decodable {
 
 }
 
+
 class APIManager {
     
     typealias APIServiceCallback<A> = (A?, Error?) -> Void
