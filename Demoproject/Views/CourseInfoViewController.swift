@@ -37,7 +37,7 @@ class CourseInfoViewController: UIViewController {
 extension CourseInfoViewController: UserListDelegate {
     func didRefreshUserList(userList: UserListModel?, error: Error?) {
         DispatchQueue.main.async {
-            //self.usersList = userList?.data.data
+            self.usersList = userList?.data
             self.usersTableView.reloadData()
         }
     }
@@ -56,7 +56,7 @@ extension CourseInfoViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "CourseListTableViewCell", for: indexPath) as? CourseListTableViewCell {
-            //cell.model = usersList?[indexPath.row]
+            cell.model = usersList?[indexPath.row]
             return cell
         } else {
             return UITableViewCell()

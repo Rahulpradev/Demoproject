@@ -12,7 +12,7 @@ struct UserListModel: Decodable {
     var per_page: Int
     var total: Int
     var total_pages: Int
-    //var data: [UserModel]
+    var data: [UserModel]
 }
 
 struct UserListReponseModel: Decodable {

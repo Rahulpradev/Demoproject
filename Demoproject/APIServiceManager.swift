@@ -9,13 +9,8 @@ import Foundation
 
 struct APIResponse<D : Decodable>: Decodable {
     
-    //let responseCode: Int?
-    let data: [D]
-    //let meta: Meta
+    let data: D
 
-//    enum CodingKeys: String, CodingKey {
-//        case responseCode = "response_code", data
-//    }
 }
 
 class APIManager {
@@ -51,7 +46,22 @@ class APIManager {
         }
         task.resume()
     }
+    
+    func apiRequest<T : Decodable>(urlRequest: URLRequest, type: T.Type, withCompletion completion: @escaping ResultBlock<T>) {
+        
+        let task = URLSession.shared.dataTask(with: urlRequest) { data, _, error in
+            if let error = error { completion(.failure(error)); return }
+            do {
+                let response: T = try JSONDecoder().decode(T.self, from: data!)
+                completion(.success(response))
+            } catch {
+                completion(.failure(error))
+            }
+        }
+        task.resume()
+    }
 }
+
 
 
 

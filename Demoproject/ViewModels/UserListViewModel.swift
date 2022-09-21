@@ -19,15 +19,15 @@ class UserListViewModel {
         urlStr = String(format: urlStr, pageNo)
        
         DispatchQueue.global(qos: .background).async {
-            APIManager.shared().load(urlRequest: URLRequest(url: URL(string: urlStr)!), type: UserListReponseModel.self, withCompletion: { result, error in
-                if result != nil {
-                    //self.delegate?.didRefreshUserList(userList: result, error: nil)
-                } else {
-                    self.delegate?.didRefreshUserList(userList: nil, error: error)
-                }
-                print("result \(result)")
+            APIManager.shared().apiRequest(urlRequest: URLRequest(url: URL(string: urlStr)!), type: UserListModel.self, withCompletion: { result in
                 
-                print("error \(error)")
+                switch result {
+                case .success(let response):
+                    self.delegate?.didRefreshUserList(userList: response, error: nil)
+                case .failure(let error):
+                    self.delegate?.didRefreshUserList(userList: nil, error: error)
+                    
+                }
             })
         }
     }
